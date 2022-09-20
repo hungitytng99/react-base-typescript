@@ -1,3 +1,4 @@
+# Dùng để CI CD
 language: node_js
 
 node_js:

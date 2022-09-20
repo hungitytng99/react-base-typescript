@@ -10,8 +10,8 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { createSelector } from 'reselect';
 import { IntlProvider } from 'react-intl';
+import { makeSelectLocale } from './saga/selectors';
 
-import { makeSelectLocale } from './selectors';
 
 export interface Props {
   messages: { [locale: string]: { [id: string]: string } };
